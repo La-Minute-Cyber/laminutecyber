@@ -1,9 +1,11 @@
 ---
 title: "new-article"
-date: 2025-05-17
+date: 2025-05-18
 draft: false
 description: "a description"
 tags: ["example", "tag"]
+authors:
+    - "gabin"
 
 ---
  an example to get you started
