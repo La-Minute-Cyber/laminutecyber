@@ -1,9 +1,0 @@
-{
-    "name": "Gabin Fouquet",
-    "image" : "img/authors/gabin.jpg",
-    "bio": "Ingénieur R&D en cybersécurité",
-    "social": [
-        { "linkedin": "https://linkedin.com/in/gabin-fouquet" },
-        { "github": "https://github.com/gabin-fouquet" }
-    ]
-}
