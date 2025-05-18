@@ -1,0 +1,5 @@
+public/
+.vscode/
+gh-pages/
+*.lock
+resources/
