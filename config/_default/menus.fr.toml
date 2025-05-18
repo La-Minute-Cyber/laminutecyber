@@ -1,0 +1,34 @@
+
+[[main]]
+name = "Accueil"
+pageRef = "index"
+weight = 1
+
+[[main]]
+name = "Vulnérabilités"
+pageRef = "vulns"
+weight = 2
+
+[[main]]
+name = "Attaques"
+pageRef = "attacks"
+weight = 3
+
+[[main]]
+name = "Histoires"
+pageRef = "stories"
+weight = 4
+
+[[main]]
+name = "Recaps"
+pageRef = "recaps"
+weight = 5
+
+[[main]]
+pre = "github"
+url = "https://github.com/nunocoracao/blowfish"
+weight = 30
+
+
+[[footer]]
+none = "none"

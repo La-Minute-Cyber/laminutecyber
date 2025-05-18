@@ -1,0 +1,14 @@
+disabled = false
+languageCode = "fr"
+languageName = "Français"
+weight = 1
+title = "La Minute Cyber"
+
+[params]
+displayName = "FR"
+isoCode = "fr"
+rtl = false
+dateFormat = "2 Janvier 2006"
+
+["params.author"]
+name = "Gabin & Lucas"
