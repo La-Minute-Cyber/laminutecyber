@@ -42,7 +42,7 @@ showViews = false
 showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
-showAuthor = true
+showAuthor = false
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
@@ -56,10 +56,10 @@ showPagination = true
 invertPagination = false
 showReadingTime = false
 showTableOfContents = true
-showTaxonomies = false
+showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = false
-showZenMode = false
+showZenMode = true
 
 [list]
 showHero = false

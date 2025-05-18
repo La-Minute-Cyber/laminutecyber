@@ -6,17 +6,17 @@ weight = 1
 
 [[main]]
 name = "Vulnérabilités"
-pageRef = "vulns"
+pageRef = "vulnerabilites"
 weight = 2
 
 [[main]]
 name = "Attaques"
-pageRef = "attacks"
+pageRef = "attaques"
 weight = 3
 
 [[main]]
 name = "Histoires"
-pageRef = "stories"
+pageRef = "histoires"
 weight = 4
 
 [[main]]
