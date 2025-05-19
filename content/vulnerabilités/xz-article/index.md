@@ -3,7 +3,7 @@ title: "Une porte dérobée critique dans XZ Utils menace la sécurité des syst
 date: 2025-05-19
 draft: false
 description: "En mars 2024, une porte dérobée sophistiquée a été découverte dans XZ Utils, un outil de compression largement utilisé sur les systèmes Linux. Cette faille, introduite par un mainteneur malveillant, permettait une exécution de code à distance via SSH, compromettant potentiellement des millions de machines."
-tags: ["#XZUtils", "#CVE20243094"]
+tags: ["XZUtils", "CVE-2024-3094"]
 summary: "Une backdoor dans XZ Utils (CVE-2024-3094) permettait une exécution de code à distance via SSH sur Linux."
 authors:
     - "gabin"
