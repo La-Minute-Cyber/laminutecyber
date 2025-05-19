@@ -1,8 +1,60 @@
-
-.max-w-\[5rem\] {
-    max-width: 20rem;
-}
-
+/* menu */
 .main-menu {
     margin-top: 1.5rem;
 }
+
+    /* Logo Top Left */
+    .main-menu .logo {
+        width: 20rem; 
+        max-width: 20rem;
+        height: auto;  
+    }
+
+    @media screen and (max-width: 1190px){
+        .main-menu .logo{
+            max-width : 15rem;
+        }
+    }
+
+    @media screen and (max-width: 1090px){
+        .main-menu .logo{
+            max-width : 12rem;
+        }
+    }
+
+    @media screen and (max-width: 1040px) and (min-width: 853px) {
+        /* Mettre le logo au-dessus du main menu */
+        .main-menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-menu .logo{
+            width : 15rem;
+            max-width: 15rem;
+        }
+        
+        .main-menu > div:first-child {
+            margin-bottom: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .main-menu .flex.flex-1 {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 853px){
+        .main-menu .logo{
+            max-width : 15rem;
+        }
+    }
+
+    @media screen and (max-width: 410px){
+        .main-menu .logo{
+            max-width : 12rem;
+        }
+    }
