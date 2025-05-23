@@ -60,6 +60,7 @@ showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = false
 showZenMode = true
+showAuthorBottom = true
 
 [list]
 showHero = true
