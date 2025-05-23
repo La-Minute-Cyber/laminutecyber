@@ -1,11 +1,10 @@
 ---
+title: "Conditions Générales d'Utilisation"
 draft: false
 showDate: false
 showZenMode: false
 showPagination: false
 ---
-
-# Conditions Générales d'Utilisation
 
 Dernière mise à jour : Mai 2025
 

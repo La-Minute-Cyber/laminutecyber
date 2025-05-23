@@ -1,13 +1,12 @@
 ---
+title: "Politique de Confidentialité"
 draft: false
 showDate: false
 showZenMode: false
 showPagination: false
 ---
 
-# Politique de Confidentialité
-
-Dernière mise à jour : Mars 2024
+Dernière mise à jour : Mai 2025
 
 ## Introduction
 
