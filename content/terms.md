@@ -6,7 +6,7 @@ showZenMode: false
 
 # Conditions Générales d'Utilisation
 
-Dernière mise à jour : Mars 2024
+Dernière mise à jour : Mai 2025
 
 ## 1. Acceptation des conditions
 
