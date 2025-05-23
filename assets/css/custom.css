@@ -62,16 +62,11 @@
 
 /* Page 404 */
 .error-404 {
-    min-height: 80vh;
+    min-height: 7git p0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-main:has(.error-404) {
     margin: 0;
     padding: 0;
 }
