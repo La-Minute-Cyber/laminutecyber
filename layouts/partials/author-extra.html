@@ -1,35 +1,34 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
-
 <div class="author author-extra mt-4 w-full max-w-none relative">
   <!-- Ombre 3D -->
   <div class="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-neutral-200 dark:to-neutral-700 blur-sm translate-x-1 translate-y-1 rounded-xl opacity-30 w-full"></div>
   
-  <!-- Carte principale avec layout en deux colonnes -->
+  <!-- Carte principale avec 2 colonnes -->
   <div class="relative flex w-full max-w-none min-w-0 bg-white dark:bg-neutral-800 rounded-xl shadow-lg p-6 border border-neutral-200 dark:border-neutral-700">
-    
-    <!-- Colonne gauche : 70% -->
-    <div class="flex w-[70%] items-center gap-6">
-      <!-- Photo de profil avec padding à droite -->
+        
+    <!-- Colonne gauche : 75% exactement -->
+    <div class="w-3/4 flex items-center gap-6">
+      <!-- Photo de profil -->
       {{ with .data.image }}
         {{ $authorImage := resources.Get . }}
         {{ if $authorImage }}
           {{ if not $disableImageOptimization }}
             {{ $authorImage = $authorImage.Fill "240x240" }}
           {{ end }}
-          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0 mr-6 pr-4" width="96" height="96"
+          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
                src="{{ $authorImage.RelPermalink }}" />
         {{ else }}
           {{ $authorImage := resources.GetRemote . }}
           {{ if not $disableImageOptimization }}
             {{ $authorImage = $authorImage.Fill "192x192" }}
           {{ end }}
-          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0 mr-6 pr-4" width="96" height="96"
+          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
                src="{{ $authorImage.RelPermalink }}" />
         {{ end }}
       {{ end }}
-      
+            
       <!-- Texte -->
-      <div class="flex-grow ml-6 place-self-center">
+      <div class="flex-grow ml-6">
         {{ $link := .link }}
         {{ with .data.name | markdownify | emojify }}
         <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
@@ -60,30 +59,28 @@
       </div>
     </div>
     
-    <!-- Colonne droite : logos entreprises collés à droite -->
-    {{ with .data.company }}
-    <div class="flex justify-end items-center -space-x-2 flex-shrink-0 ml-auto">
-      {{ range first 2 . }}
-        {{ $companyLogo := resources.Get .logo }}
-        {{ if $companyLogo }}
-          {{ if not $disableImageOptimization }}
-            {{ $companyLogo = $companyLogo.Fill "64x64" }}
-          {{ end }}
+    <!-- Colonne droite : 25% exactement -->
+    {{ with index .data.company 0 }}
+      {{ $companyLogo := resources.Get .logo }}
+      {{ if $companyLogo }}
+        {{ if not $disableImageOptimization }}
+          {{ $companyLogo = $companyLogo.Fill "120x120" }}
+        {{ end }}
+        <div class="w-1/4 flex justify-center items-center px-2">
           {{ if .link }}
-            <a href="{{ .link }}" target="_blank" class="group relative z-10" aria-label="{{ .name }}">
-              <img class="h-16 w-16 rounded-full shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-200"
+            <a href="{{ .link }}" target="_blank" aria-label="{{ .name }}" class="block">
+              <img class="w-full max-w-[100px] h-auto max-h-[100px] object-contain border border-neutral-300 dark:border-neutral-600 shadow-md rounded-lg"
                    src="{{ $companyLogo.RelPermalink }}"
                    alt="{{ .name }} logo" />
             </a>
           {{ else }}
-            <img class="h-16 w-16 rounded-full shadow-md relative z-10"
+            <img class="w-full max-w-[100px] h-auto max-h-[100px] object-contain border border-neutral-300 dark:border-neutral-600 shadow-md rounded-lg"
                  src="{{ $companyLogo.RelPermalink }}"
                  alt="{{ .name }} logo" />
           {{ end }}
-        {{ end }}
+        </div>
       {{ end }}
-    </div>
     {{ end }}
-    
+   
   </div>
 </div>
