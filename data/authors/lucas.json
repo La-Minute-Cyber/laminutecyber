@@ -1,9 +1,21 @@
 {
     "name": "Lucas Thietart",
-    "image" : "img/authors/lucas.jpg",
-    "bio": "Truc cybersécurité chez Chanel",
+    "image": "img/authors/lucas/lucas.jpg",
+    "bio": "Truc cybersécurité chez Chanel ekf poijzefoiezjnf nvoeznfoezincozinvozirvnozeincvozein oijoijod",
     "social": [
         { "linkedin": "https://linkedin.com/in/lucas-thietart" },
         { "github": "https://github.com/LucasThTrT" }
+    ],
+    "company": [
+        {
+            "name": "chanel",
+            "logo": "img/authors/lucas/chanel.png",
+            "link": "https://chanel.com"
+        },
+        {
+            "name": "tls_sec",
+            "logo": "img/authors/lucas/n7rt.png",
+            "link": ""
+        }
     ]
 }
