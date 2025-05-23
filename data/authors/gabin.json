@@ -1,9 +1,16 @@
 {
     "name": "Gabin Fouquet",
     "image" : "img/authors/gabin/gabin.jpg",
-    "bio": "Ingénieur R&D en cybersécurité",
+    "bio": "Solution architect en cybersécurité",
     "social": [
         { "linkedin": "https://linkedin.com/in/gabin-fouquet" },
         { "github": "https://github.com/GabinFqt" }
+    ],
+    "company": [
+        {
+            "name": "escape",
+            "logo": "img/authors/gabin/escape.png",
+            "link": "https://escape.tech/"
+        }
     ]
 }
