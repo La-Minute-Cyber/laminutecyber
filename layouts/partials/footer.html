@@ -36,29 +36,18 @@
     </p>
     {{ end }}
 
-    {{/* Privacy Page */}}
-    {{ if .Site.Params.footer.showPrivacy | default true }}
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="/privacy">
-        Privacy
-      </a>
-    </p>
-    {{ end }}
-
-    {{/* Contact Page */}}
-    {{ if .Site.Params.footer.showContact | default true }}
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="/contact">
-        Contact
-      </a>
-    </p>
-    {{ end }}
-
-
-
-
+    {{/* Legal links */}}
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      {{ with .Site.GetPage "/privacy" }}
+        <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="{{ .RelPermalink }}">Confidentialité</a>
+      {{ end }}
+      <span>&nbsp;·&nbsp;</span>
+      {{ with .Site.GetPage "/terms" }}
+        <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="{{ .RelPermalink }}">Conditions d'utilisation</a>
+      {{ end }}
+      <span>&nbsp;·&nbsp;</span>
+      <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/contact">Contact</a>
+    </div>
 
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
