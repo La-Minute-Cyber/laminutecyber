@@ -2,6 +2,7 @@
 draft: false
 showDate: false
 showZenMode: false
+showPagination: false
 ---
 
 # Conditions Générales d'Utilisation
