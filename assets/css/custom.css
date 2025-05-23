@@ -70,3 +70,54 @@
     margin: 0;
     padding: 0;
 }
+
+/* Carte auteur */
+.author-extra {
+    width: 100%;
+}
+
+.author-extra .relative {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Colonne gauche */
+.author-extra .relative > div:first-child {
+    width: 800px;
+}
+
+/* Colonne droite */
+.author-extra .relative > div:last-child {
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Logo */
+.author-extra .relative > div:last-child a,
+.author-extra .relative > div:last-child img {
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.author-extra .relative > div:last-child a {
+    pointer-events: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .author-extra .relative > div:last-child a,
+    .author-extra .relative > div:last-child img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .author-extra .relative > div:last-child a,
+    .author-extra .relative > div:last-child img {
+        width: 100%;
+    }
+}
