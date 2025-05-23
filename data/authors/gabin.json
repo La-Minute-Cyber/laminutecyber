@@ -1,7 +1,7 @@
 {
     "name": "Gabin Fouquet",
     "image" : "img/authors/gabin/gabin.jpg",
-    "bio": "Solution architect en cybersécurité",
+    "bio": "Solution architect chez Escape, passionné par la cybersécurité et l'open source. J'aime partager mes connaissances et aider les autres à apprendre.",
     "social": [
         { "linkedin": "https://linkedin.com/in/gabin-fouquet" },
         { "github": "https://github.com/GabinFqt" }
