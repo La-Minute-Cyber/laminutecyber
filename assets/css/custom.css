@@ -121,3 +121,12 @@
         width: 100%;
     }
 }
+
+/* Thumbnail (100% width card) */
+.thumbnail {
+    min-width: 300px;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position:center;
+}
