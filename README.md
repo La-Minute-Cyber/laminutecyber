@@ -31,8 +31,8 @@ Chaque jour, une nouvelle dose d'information sur :
 
 Ce projet est développé par :
 
-- [Gabin Fouquet](https://github.com/gabinfouquet)
-- [Lucas Thietart](https://github.com/...)
+- [Gabin Fouquet](https://github.com/GabinFqt)
+- [Lucas Thietart](https://github.com/LucasThTrT)
 
 Mais c'est aussi un **projet collaboratif**. Vous pouvez **contribuer** à tout moment !
 
