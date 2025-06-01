@@ -3,3 +3,4 @@ public/
 gh-pages/
 *.lock
 resources/
+.DS_Store
