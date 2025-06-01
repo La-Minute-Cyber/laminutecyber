@@ -76,6 +76,11 @@
     width: 100%;
 }
 
+/* Texte card */
+.text-sm {
+    text-align: justify;
+}
+
 .author-extra .relative {
     display: flex;
     width: 100%;
@@ -104,29 +109,19 @@
     pointer-events: none;
 }
 
+/* Rendre invisible le logo sur mobile */
+@media screen and (max-width: 760px) {
+    .logo-company-card{
+        display: none !important;
+    }  
+}
+
 .author-extra .relative > div:last-child a {
     pointer-events: auto;
 }
 
-@media screen and (max-width: 1024px) {
-    .author-extra .relative > div:last-child a,
-    .author-extra .relative > div:last-child img {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .author-extra .relative > div:last-child a,
-    .author-extra .relative > div:last-child img {
-        width: 100%;
-    }
-}
 
 /* Thumbnail (100% width card) */
 .thumbnail {
-    min-width: 300px;
     height: auto;
-    background-repeat:no-repeat;
-    background-size:cover; 
-    background-position:center;
 }
