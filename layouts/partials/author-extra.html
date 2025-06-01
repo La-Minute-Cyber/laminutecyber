@@ -9,21 +9,23 @@
     <!-- Colonne gauche -->
     <div class="flex items-center gap-6">
       <!-- Photo de profil -->
-      {{ with .data.image }}
-        {{ $authorImage := resources.Get . }}
-        {{ if $authorImage }}
-          {{ if not $disableImageOptimization }}
-            {{ $authorImage = $authorImage.Fill "240x240" }}
+      {{ if not .Params.hideAuthorImage }}
+        {{ with .data.image }}
+          {{ $authorImage := resources.Get . }}
+          {{ if $authorImage }}
+            {{ if not $disableImageOptimization }}
+              {{ $authorImage = $authorImage.Fill "240x240" }}
+            {{ end }}
+            <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
+                 src="{{ $authorImage.RelPermalink }}" />
+          {{ else }}
+            {{ $authorImage := resources.GetRemote . }}
+            {{ if not $disableImageOptimization }}
+              {{ $authorImage = $authorImage.Fill "192x192" }}
+            {{ end }}
+            <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
+                 src="{{ $authorImage.RelPermalink }}" />
           {{ end }}
-          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
-               src="{{ $authorImage.RelPermalink }}" />
-        {{ else }}
-          {{ $authorImage := resources.GetRemote . }}
-          {{ if not $disableImageOptimization }}
-            {{ $authorImage = $authorImage.Fill "192x192" }}
-          {{ end }}
-          <img class="!mt-0 !mb-0 h-24 w-24 rounded-full flex-shrink-0" width="96" height="96"
-               src="{{ $authorImage.RelPermalink }}" />
         {{ end }}
       {{ end }}
             
