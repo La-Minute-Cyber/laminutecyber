@@ -10,7 +10,7 @@ authors:
 ---
 ### 🧠 Qui sommes-nous ?
 
-**La Minute Cyber**, c’est un condensé quotidien d’actualité autour de la cybersécurité, de la tech et de la culture numérique.  
+**La Minute Cyber**, c’est un site d’actualité 100 % cybersécurité, publié chaque jour au format court !
 Nos articles sont conçus pour être **rapides à lire**, tout en conservant une **pertinence technique**.
 
 > Que vous soyez **débutant curieux**, **expert confirmé** ou **passionné de veille**,  
@@ -21,9 +21,10 @@ Nos articles sont conçus pour être **rapides à lire**, tout en conservant une
 ### 🎯 Notre approche
 
 Nous sélectionnons chaque sujet avec soin pour **aller à l’essentiel**, sans sacrifier la **qualité de l’analyse**.  
+
 Notre objectif :
 
-> **Proposer une veille concise et percutante, appuyée sur des sources solides et des réflexions pertinentes.**
+> **Fournir une information concise mais exigeante, utile pour comprendre le monde de la cyber sécurité d’aujourd’hui.**
 
 ---
 
