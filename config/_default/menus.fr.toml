@@ -1,28 +1,32 @@
-
 [[main]]
 name = "Accueil"
 pageRef = "index"
 weight = 1
 
 [[main]]
+name = "News"
+pageRef = "news"
+weight = 2
+
+[[main]]
 name = "Vulnérabilités"
 pageRef = "vulnerabilités"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Attaques"
 pageRef = "attaques"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Histoires"
 pageRef = "histoires"
-weight = 4
-
-[[main]]
-name = "Recaps"
-pageRef = "recaps"
 weight = 5
+
+# [[main]]
+# name = "Recaps"
+# pageRef = "recaps"
+# weight = 6
 
 [[main]]
 pre = "github"

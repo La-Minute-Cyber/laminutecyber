@@ -18,7 +18,7 @@ enableEmoji = true
 
 googleAnalytics = "G-GCK17JQ06J"
 
-mainSections= ["articles", "vulnerabilités", "attaques", "histoires", "recaps"]
+mainSections= ["articles", "news", "vulnerabilités", "attaques", "histoires", "recaps"]
 
 [pagination]
   pagerSize = 100
