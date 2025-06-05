@@ -129,3 +129,15 @@
 .thumbnail {
     height: auto;
 }
+
+.toc {
+    text-align: left !important;
+}
+
+.toc-content {
+    text-align: left !important;
+}
+
+.toc a {
+    text-align: left !important;
+}
