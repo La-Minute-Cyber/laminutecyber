@@ -1,5 +1,5 @@
 ---
-title: "Microsoft & CrowdStrike : Un glossaire commun pour clarifier l’attribution des cybermenaces"
+title: "🔍 Microsoft & CrowdStrike : Un glossaire commun pour clarifier l’attribution des cybermenaces"
 date: 2025-06-03
 draft: false
 tags: ["threat intelligence", "APT", "Microsoft", "CrowdStrike"]
