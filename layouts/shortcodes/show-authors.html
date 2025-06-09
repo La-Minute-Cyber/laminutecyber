@@ -1,0 +1,39 @@
+{{ $authors := .Site.Data.authors }}
+<div class="flex flex-wrap -mx-2">
+    {{ range $key, $author := $authors }}
+    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+        <div class="border dark:border-gray-700 rounded-lg p-4 h-full">
+            <div class="flex items-center mb-4">
+                {{ if $author.image }}
+                <img src="{{ $author.image }}" alt="{{ $author.name }}" class="w-16 h-16 rounded-full mr-4">
+                {{ end }}
+                <div>
+                    <h4 class="text-xl font-semibold">{{ $author.name }}</h4>
+                    {{ if $author.bio }}
+                    <p class="text-sm text-gray-600 dark:text-gray-400">{{ $author.bio }}</p>
+                    {{ end }}
+                </div>
+            </div>
+            {{ if $author.social }}
+            <div class="flex space-x-2">
+                {{ range $platform, $username := $author.social }}
+                {{ if eq $platform "twitter" }}
+                <a href="https://twitter.com/{{ $username }}" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                {{ else if eq $platform "linkedin" }}
+                <a href="https://linkedin.com/in/{{ $username }}" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                {{ else if eq $platform "github" }}
+                <a href="https://github.com/{{ $username }}" target="_blank" rel="noopener noreferrer" class="text-gray-800 dark:text-gray-200 hover:text-gray-600">
+                    <i class="fab fa-github"></i>
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div> 
