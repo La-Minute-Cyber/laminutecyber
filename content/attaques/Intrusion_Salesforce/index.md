@@ -4,7 +4,7 @@ date: 2025-06-04
 showTableOfContents: true
 showHero: False
 tags: ["vishing", "social engineering", "salesforce"]
-summary: "Une campagne de vishing ciblée a permis à UNC6040 de compromettre des comptes Salesforce, sans faille technique, via ingénierie sociale."
+summary: "Une campagne de vishing (phishing vocal) ciblée a permis de compromettre des comptes Salesforce, sans faille technique, via ingénierie sociale."
 authors:
     - "lucas"
 ---
