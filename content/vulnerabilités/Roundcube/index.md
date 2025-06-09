@@ -3,7 +3,7 @@ title: "⚠️ [CERT-FR] : Faille critique dans Roundcube Webmail"
 date: 2025-06-05
 showHero: false
 tags: ["CERT-FR", "Roundcube", "CVE", "Webmail"]
-summary: "Une vulnérabilité critique affecte Roundcube Webmail, permettant à un utilisateur authentifié d’exécuter du code arbitraire à distance. Une preuve de concept est publique et touche aussi des instances cPanel et Plesk. Patch disponible, mise à jour immédiate recommandée."
+summary: "Une vulnérabilité critique affecte Roundcube Webmail, permettant à un utilisateur authentifié d’exécuter du code arbitraire à distance."
 authors:
   - "lucas"
 ---
