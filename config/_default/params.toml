@@ -29,8 +29,8 @@ showScrollToTop = true
 [homepage]
 layout = "page"
 showRecent = true
-showRecentItems = 5
-showMoreLink = false
+showRecentItems = 8
+showMoreLink = true
 showMoreLinkDest = ""
 cardView = false
 cardViewScreenWidth = false
