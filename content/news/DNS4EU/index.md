@@ -2,7 +2,7 @@
 title: "🛡️ DNS4EU : Le résolveur DNS européen entre souveraineté, sécurité et RGPD"
 date: 2025-06-11
 showHero: true
-tags: ["DNS", "Souveraineté", "Cybersécurité", "UE"]
+tags: ["DNS", "Souveraineté", "UE"]
 summary: "DNS4EU est le nouveau résolveur DNS public de l'Union européenne, conçu pour renforcer la souveraineté numérique, améliorer la sécurité et garantir la conformité RGPD. Enjeux, fonctionnement et limites."
 authors:
   - lucas
