@@ -23,6 +23,8 @@ Objectif : **booster le moral** des troupes avant des opérations à haut risque
 
 Mais à l’ère des réseaux sociaux, ces festins ne passent plus inaperçus...
 
+![Lobster indicator](image.png)
+
 ---
 
 ## 📱 Une source OSINT inattendue : TikTok & Instagram
@@ -71,8 +73,6 @@ Le “steak & homard” pourrait redevenir ce qu’il fut souvent par le passé 
 
 ---
 
-## 🔗 Sources
+## 🔗 Sources de l'OSINT :
 
-- 📸 TikTok/Instagram (compte anonymisés)
-- 🗞️ [The War Zone](https://www.thedrive.com/the-war-zone)  
-- 🧠 Notes d’analyse OSINT communautaires (mai 2025)
+- [Vidéo Tiktok : ARMY STEAK AND LOBSTER](https://www.tiktok.com/@melly.fits/video/7466644576044961070)
