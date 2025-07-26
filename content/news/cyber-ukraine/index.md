@@ -23,7 +23,7 @@ Selon les autorités, il n’exerçait pas simplement un rôle technique. En tan
   - la **vente de données volées**
   - la **commercialisation de malwares et de services de ransomware**
   - l’**accès à des systèmes compromis**
-  - l’**embauche et la coordination** de menaces cybercriminelles :contentReference[oaicite:3]{index=3}.
+  - l’**embauche et la coordination** de menaces cybercriminelles.
 
 - L’homme aurait généré **plus de 7 millions d’euros** de recettes provenant de la publicité, des frais de médiation entre membres et de ses services de messagerie sécurisée.
 
@@ -41,7 +41,7 @@ Selon les autorités, il n’exerçait pas simplement un rôle technique. En tan
 
 - Elle cible un **maillon-clé du cybercrime mondial**, réduisant considérablement les capacités de coordination des réseaux criminels russophones.
 - L’opération démontre l’efficacité de la **coopération internationale** entre la France, l’Ukraine et Europol.
-- Le matériel saisi sera exploité dans de nombreuses enquêtes en cours à travers l’Europe :contentReference[oaicite:8]{index=8}.
+- Le matériel saisi sera exploité dans de nombreuses enquêtes en cours à travers l’Europe.
 
 ---
 
