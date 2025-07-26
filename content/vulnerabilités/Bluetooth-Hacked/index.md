@@ -2,7 +2,7 @@
 title: "🎧 Bluetooth Hacked : Des millions d’écouteurs Airoha vulnérables"
 date: 2025-07-01
 showHero: False
-tags: ["Bluetooth", "Sécurité", "Objets connectés", "CVE"]
+tags: ["Bluetooth", "Sécurité", "Objets connectés", "CVE", "Cybersécurité"]
 summary: "Des chercheurs découvrent de graves failles dans les puces Airoha équipant de nombreux écouteurs et casques Bluetooth. Des attaques possibles sans appairage, à distance, sur des modèles populaires de Sony, Marshall ou JBL."
 authors:
     - "lucas"

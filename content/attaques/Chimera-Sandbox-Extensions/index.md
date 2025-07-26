@@ -1,7 +1,7 @@
 ---
 title: "🧪 Chimera-Sandbox-Extensions : Un package PyPI malveillant vole des données sensibles sur AWS, CI/CD et macOS"
 date: 2025-06-16
-tags: ["pypi", "malware", "ci/cd"]
+tags: ["pypi", "malware", "ci/cd", "Cybersécurité"]
 summary: Le package PyPI \"chimera-sandbox-extensions\" visait les développeurs pour exfiltrer des données sensibles liées à AWS, CI/CD et macOS. Analyse d’une attaque en plusieurs étapes ciblant la chaîne logicielle.
 authors:
   - "lucas"

@@ -2,7 +2,7 @@
 title: "🚨 CVE-2025-32433 — Vulnérabilité critique RCE sur Erlang/OTP (CVSS 10)"
 date: 2025-06-10
 showHero: false
-tags: ["CVE", "Erlang", "KEV"]
+tags: ["CVE", "Erlang", "KEV", "Cybersécurité"]
 summary: "Une vulnérabilité critique dans le serveur SSH d’Erlang/OTP permet une exécution de code à distance sans authentification. Déjà exploitée, elle menace de nombreuses infrastructures distribuées."
 authors:
   - "lucas"

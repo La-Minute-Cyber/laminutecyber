@@ -2,7 +2,7 @@
 title: "🦞 OSINT et l’« Indicateur du Homard » : Quand le menu prédit les mouvements militaires américains"
 date: 2025-06-18
 showHero: true
-tags: ["OSINT", "militaire", "USA", "analyse"]
+tags: ["OSINT", "militaire", "USA", "analyse", "Cybersécurité"]
 summary: "L’« indicateur du homard » : un signal faible mais révélateur de déploiements militaires américains. Quand les menus des cantines deviennent une source d’intelligence stratégique."
 authors:
   - "lucas"

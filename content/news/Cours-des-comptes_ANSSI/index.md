@@ -2,7 +2,7 @@
 title: "🛡️ Vers une ANSSI renforcée et plus contraignante face aux défis de NIS2"
 date: 2025-06-17
 showHero: true
-tags: ["ANSSI", "NIS2", "France"]
+tags: ["ANSSI", "NIS2", "France", "Cybersécurité"]
 summary: "Face à l’entrée en vigueur de NIS2, la Cour des comptes appelle à renforcer l’ANSSI : missions clarifiées, moyens accrus, posture plus contraignante. Une transformation structurelle s’impose pour répondre aux défis cyber européens."
 authors:
   - "lucas"
