@@ -69,7 +69,7 @@ Le CRA impose plusieurs **exigences de cybersécurité** :
 |------------------------------|------------------------------|
 | Proposition de la Commission | 15 septembre 2022            |
 | Adoption définitive          | Attendue mi-2024             |
-| Entrée en vigueur            | **Début 2025 (estimé : janvier-février)** |
+| Entrée en vigueur            | **Début 2027 (estimé : janvier-février)** |
 | Période de transition        | 36 mois après publication au JO |
 
 > 📌 **Mise en application obligatoire prévue courant 2027** pour l’ensemble des produits concernés.
