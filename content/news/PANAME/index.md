@@ -2,7 +2,7 @@
 title: "🔐 Confidentialité des IA : la Cnil et l’Anssi lancent PANAME"
 date: 2025-06-25
 showHero: False
-tags: ["RGPD", "IA", "Cnil", "Anssi", "Confidentialité"]
+tags: ["RGPD", "IA", "Cnil", "Anssi", "Confidentialité", "Cybersécurité"]
 summary: "La France lance PANAME, un outil d’audit des modèles d’IA pour prévenir les fuites de données personnelles. Un projet piloté par la Cnil, l’Anssi et le PEReN pour une IA responsable et conforme."
 authors:
     - "lucas"

@@ -1,8 +1,8 @@
 ---
 title: "🛡️ SharePoint piraté ? Une faille critique déjà exploitée (CVE‑2025‑53770)"
-date: 2025-07-26
+date: 2025-07-24
 showHero: false
-tags: ["SharePoint", "Microsoft", "CVE-2025-53770", "ZeroAuth", "Cyberattaque"]
+tags: ["SharePoint", "Microsoft", "ZeroAuth", "Cybersécurité"]
 summary: "Une vulnérabilité critique (CVSS 9.8) dans SharePoint Server permet l'exécution de code à distance sans authentification. Déjà exploitée dans la nature, cette faille menace les infrastructures internes non mises à jour."
 authors:
   - "lucas"

@@ -2,7 +2,7 @@
 title: "🔍 Microsoft & CrowdStrike : Un glossaire commun pour clarifier l’attribution des cybermenaces"
 date: 2025-06-03
 draft: false
-tags: ["threat intelligence", "APT", "Microsoft", "CrowdStrike"]
+tags: ["threat intelligence", "APT", "Microsoft", "CrowdStrike", Cybersécurité]
 summary: Microsoft et CrowdStrike lancent un glossaire commun pour unifier les noms des groupes APT et faciliter l’analyse des cybermenaces.
 authors:
     - "lucas"

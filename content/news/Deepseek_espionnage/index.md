@@ -2,7 +2,7 @@
 title: "🔎 DeepSeek – Pépite de l’IA chinoise ou menace stratégique ?"
 date: 2025-06-24
 showHero: False
-tags: ["DeepSeek", "Chine", "Surveillance", "IA"]
+tags: ["DeepSeek", "Chine", "Surveillance", "IA", "Cybersécurité"]
 summary: "Des révélations américaines suggèrent que DeepSeek, fleuron de l’IA chinoise, aurait soutenu l’appareil militaire chinois tout en contournant les sanctions technologiques. Une affaire aux lourdes implications stratégiques."
 authors:
     - "lucas"

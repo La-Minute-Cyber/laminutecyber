@@ -2,7 +2,7 @@
 title: "🇪🇺 Cyber Resilience Act (CRA) : Un tournant pour la cybersécurité des produits numériques en Europe"
 date: 2025-07-15
 showHero: true
-tags: ["Cyber Resilience Act", "Europe", "Cybersécurité", "IoT", "Législation"]
+tags: ["Cyber Resilience Act", "Europe", "IoT", "Législation", "Cybersécurité"]
 summary: "Le Cyber Resilience Act marque un tournant réglementaire majeur en Europe. Conçu pour renforcer la sécurité des produits numériques, il impose aux fabricants et éditeurs des exigences strictes de cybersécurité tout au long du cycle de vie produit."
 authors:
   - "gabin"

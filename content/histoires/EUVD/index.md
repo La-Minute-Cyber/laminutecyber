@@ -2,7 +2,7 @@
 title: "🇪🇺 EUVD – L’Europe lance sa propre base de vulnérabilités"
 date: 2025-06-23
 showHero: True
-tags: ["EUVD", "ENISA", "NIS2"]
+tags: ["EUVD", "ENISA", "NIS2", "Cybersécurité"]
 summary: "L’ENISA annonce le lancement de l’EUVD, une base européenne de vulnérabilités pour renforcer la souveraineté numérique face à CVE/MITRE et au contexte géopolitique."
 authors:
     - "lucas"

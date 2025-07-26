@@ -3,7 +3,7 @@ title: "🚨 Intrusion dans Salesforce : le piège du faux support IT"
 date: 2025-06-04
 showTableOfContents: true
 showHero: False
-tags: ["vishing", "social engineering", "salesforce"]
+tags: ["vishing", "social engineering", "salesforce", "Cybersécurité"]
 summary: "Une campagne de vishing (phishing vocal) ciblée a permis de compromettre des comptes Salesforce, sans faille technique, via ingénierie sociale."
 authors:
     - "lucas"

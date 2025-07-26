@@ -2,7 +2,7 @@
 title: "🕵️ Room 641A – La pièce cachée d’AT&T connectée à la NSA"
 date: 2025-06-24
 showHero: True
-tags: ["NSA", "Surveillance", "AT&T", "Room641A"]
+tags: ["NSA", "Surveillance", "AT&T", "Room641A", "Cybersécurité"]
 summary: "Retour sur une des premières révélations majeures de surveillance de masse : la Room 641A d’AT&T, révélée en 2006 comme un point de collecte secret pour la NSA."
 authors:
     - "lucas"

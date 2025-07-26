@@ -1,7 +1,7 @@
 ---
 title: "🇫🇷 Nouvelle stratégie nationale contre la cybercriminalité"
 date: 2025-06-02
-tags: ["Stratégie", "France", "Cybercriminalité"]
+tags: ["Stratégie", "France", "Cybercriminalité", "Cybersécurité"]
 summary: "La France vient de lancer une stratégie nationale contre la cybercriminalité : 4 piliers, 84 actions, cybersécurité renforcée, IA, coopération et recrutement ciblé."
 authors: 
     - "lucas"

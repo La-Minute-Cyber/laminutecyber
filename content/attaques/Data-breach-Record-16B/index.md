@@ -2,7 +2,7 @@
 title: "🔐 16 milliards de mots de passe exposés ? Une fuite massive… ou un chiffre gonflé ?"
 date: 2025-06-27
 showHero: False
-tags: ["fuite de données", "infostealers"]
+tags: ["fuite de données", "infostealers", Cybersécurité]
 summary: "Cybernews annonce 16 milliards d’identifiants volés dans une compilation inédite. Mais derrière ce chiffre choc se cache une réalité bien plus nuancée : doublons, données recyclées, et effet marketing."
 authors:
   - "lucas"
