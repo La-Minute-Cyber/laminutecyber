@@ -2,7 +2,7 @@
 title: "💥 Stuxnet : la première cyberarme industrielle de l’histoire"
 date: 2025-07-26
 showHero: false
-tags: ["Stuxnet", "ICS", "Iran", "Malware", "Cyberarme", "SCADA", "ZeroDay"]
+tags: ["Stuxnet", "Iran", "Malware", "Cyberarme", "ZeroDay", Cybersécurité]
 summary: "Stuxnet, c’est le malware qui a ouvert l’ère de la cyberguerre industrielle. Créé par la NSA et Israël pour saboter l’enrichissement nucléaire iranien, il est le premier virus à provoquer des dégâts physiques réels. Une révolution technologique… et géopolitique."
 authors:
   - "lucas"
