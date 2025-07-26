@@ -1,6 +1,6 @@
 ---
 title: "🏆 Le Record du Monde de DDoS : 3,8 Tbit/s stoppés net"
-date: 2025-07-26
+date: 2025-07-17
 showHero: false
 tags: ["DDoS", "NTP", "Cloudflare", "Amplification", "Botnet", "Cybersécurité"]
 summary: "Une attaque DDoS record de 3,8 Tbit/s a été stoppée par Cloudflare en 2024. Elle exploitait le protocole NTP pour amplifier massivement le trafic vers sa cible. Plongée dans une attaque à très haut débit."
