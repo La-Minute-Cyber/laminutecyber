@@ -35,7 +35,7 @@ Des échantillons du malware utilisé auraient été identifiés comme des varia
 
 Mais selon des sources internes relayées par *Mediapart*, certaines équipes ont été contraintes de **travailler hors-ligne pendant plusieurs jours**, et des projets classifiés auraient été temporairement suspendus.
 
-### ⚠️ Risques identifiés :
+## ⚠️ Risques identifiés :
 
 - Exfiltration de documents confidentiels
 - Perte de confiance de clients étatiques
