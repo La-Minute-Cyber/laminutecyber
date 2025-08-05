@@ -1,6 +1,6 @@
 ---
 title: "🪄 Un compte gratuit pour ChatGPT ? C’est possible !"
-date: 2025-08-01
+date: 2025-08-04
 showHero: false
 tags: ["ChatGPT", "GitHub", "Secrets", "DevSecOps", "Cybersécurité"]
 summary: "Fuites de tokens, secrets exposés et ChatGPT gratos : GitHub est un eldorado pour pirates… et un cauchemar pour la sécurité. On t'explique comment (et pourquoi) ça se produit — et comment éviter que ça t’arrive."
